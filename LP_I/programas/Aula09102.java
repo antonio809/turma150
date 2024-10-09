@@ -20,8 +20,8 @@ public class Aula09102 {
         System.out.println("Soma dos números: " + a);
         System.out.println("Números em ordem invertida: ");
         
-        for(int i = 5; i > 0; i--){
-            System.out.println("número: " + i + " = " + v[i]);
+        for(int i = 4; i >= 0; i--){
+            System.out.println("número: " + (i+1) + " = " + v[i]);
             
         }
 
