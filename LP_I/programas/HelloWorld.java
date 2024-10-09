@@ -8,21 +8,23 @@ public class HelloWorld {
         
         Scanner entrada = new Scanner(System.in);
         
-        System.out.print("Insira um número inteiro: ");
+        System.out.print("Insira um nï¿½mero inteiro: ");
         int n1 = entrada.nextInt();
         
-        System.out.print("Insira um número inteiro: ");
+        System.out.print("Insira um nï¿½mero inteiro: ");
         int n2 = entrada.nextInt();
         
-        System.out.print("Insira um número inteiro: ");
+        System.out.print("Insira um nï¿½mero inteiro: ");
         int n3 = entrada.nextInt();
         
         if(n1 > n2 && n1 > n3){
-            System.out.println("O primeiro número é maior.");
+            System.out.println("O primeiro nï¿½mero ï¿½ maior.");
         }else if(n2 > n1 && n2 > n3){
-            System.out.println("O segundo número é maior.");
+            System.out.println("O segundo nï¿½mero ï¿½ maior.");
         }else{
-            System.out.println("O terceiro número é maior.");
+            System.out.println("O terceiro nï¿½mero ï¿½ maior.");
         }
+
+        entrada.close();
     }
 }

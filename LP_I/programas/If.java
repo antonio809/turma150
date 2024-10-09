@@ -36,5 +36,6 @@ public class If {
             System.out.println("x2 = " + x2);
         }
 
+        entrada.close();
     }
 }

@@ -29,6 +29,7 @@ public class Media {
             System.out.println("Aprovado.");
         }
         
+        entrada.close();
     }
     
 }

@@ -14,17 +14,19 @@ public class MaisVelho {
         System.out.print("Malvadeza: ");
         int mal = entrada.nextInt();
         
-        System.out.print("Caledônio: ");
+        System.out.print("Caledï¿½nio: ");
         int cal = entrada.nextInt();
         
         if(ari == mal && mal == cal){
-            System.out.println("As idades são iguais."); 
+            System.out.println("As idades sï¿½o iguais."); 
         }else if(ari > mal && ari > cal){
-            System.out.println("Ariovaldo é o mais velho.");
+            System.out.println("Ariovaldo ï¿½ o mais velho.");
         }else if(mal > ari && mal > cal){
-            System.out.println("Malvadeza é o mais velho.");
+            System.out.println("Malvadeza ï¿½ o mais velho.");
         }else{
-            System.out.println("Caledônio é o mais velho.");
+            System.out.println("Caledï¿½nio ï¿½ o mais velho.");
         }
+
+        entrada.close();
     }
 }

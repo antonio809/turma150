@@ -20,6 +20,8 @@ public class Maiordele2 {
          }else{
              System.out.println(n2+" - "+n1+" = "+ (n2-n1));
          }
+
+         entrada.close();
     }
          
 }

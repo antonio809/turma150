@@ -13,15 +13,15 @@ public class NewClass {
         int soma = 0;
         do{ 
             soma = soma + num;
-            System.out.println("Números positivos ou 0 - negativo sai: ");
+            System.out.println("Nï¿½meros positivos ou 0 - negativo sai: ");
             num = entrada.nextInt();                                                                                                                                                                                                                                                                                                                    
             
             if(num < 0){
-                System.out.println("Informou número negativo!");
+                System.out.println("Informou nï¿½mero negativo!");
             }
         }while(num >= 0);
-        System.out.printf("A soma é igual a %d\n", soma);
+        System.out.printf("A soma ï¿½ igual a %d\n", soma);
         
-        
+        entrada.close();
     }
 }

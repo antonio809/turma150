@@ -2,7 +2,7 @@
 package programas;
 import java.util.Scanner;
 
-public class Sal·rioBruto {
+public class Sal√°rioBruto {
     public static void main(String[] args){
         
         Scanner entrada = new Scanner(System.in);

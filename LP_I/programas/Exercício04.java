@@ -5,11 +5,7 @@
 package programas;
 import java.util.Scanner;
 
-/**
- *
- * @author anton
- */
-public class Exercí­cio04 {
+public class ExercÃ­cio04 {
     
     public static void main(String[] args){
         Scanner entrada = new Scanner(System.in);

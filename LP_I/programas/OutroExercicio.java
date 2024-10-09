@@ -22,7 +22,7 @@ public class OutroExercicio {
             System.out.println("O segundo e maior.");
         }
         
-        
+        entrada.close();
     }
     
 }

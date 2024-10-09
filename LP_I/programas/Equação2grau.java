@@ -3,7 +3,7 @@ package programas;
 import java.util.Scanner;
 
 
-public class Equação2grau {
+public class EquaÃ§Ã£o2grau {
     public static void main(String[] args) {
          
         Scanner entrada = new Scanner(System.in);
@@ -22,11 +22,11 @@ public class Equação2grau {
         double x1, x2;
         
         if(delta < 0){
-            System.out.println("Não possui raíz real.");
+            System.out.println("Nï¿½o possui raï¿½z real.");
         }
         if(delta == 0){
             x1 = -b / 2 * a;
-            System.out.println("Possui 1 raíz real.");
+            System.out.println("Possui 1 raï¿½z real.");
             System.out.println("x = " + x1);
         }
         if(delta > 0){

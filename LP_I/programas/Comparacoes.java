@@ -7,7 +7,6 @@ public class Comparacoes {
     public static void main(String []args){
     Scanner entrada = new Scanner(System.in);
     
-    int n = 10;
     System.out.print("Insira um numero inteiro: ");
     int n1 = entrada.nextInt();
     System.out.print("Insira outro numero inteiro: ");

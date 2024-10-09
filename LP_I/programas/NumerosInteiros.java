@@ -32,6 +32,8 @@ public class NumerosInteiros {
                 System.out.println("O numero é impar.");
             }
         }
+
+        entrada.close();
     }
      
 }

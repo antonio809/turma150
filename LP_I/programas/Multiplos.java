@@ -15,5 +15,7 @@ public class Multiplos {
         else {
             System.out.println("Não e um multiplo de 5");
         }
+
+        entrada.close();
     }
 }

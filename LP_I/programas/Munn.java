@@ -8,17 +8,18 @@ public class Munn {
         
         Scanner entrada = new Scanner(System.in);
         
-        System.out.print("Insira um número: ");
+        System.out.print("Insira um nï¿½mero: ");
         int num1 = entrada.nextInt();
         
-        System.out.print("Insira outro número: ");
+        System.out.print("Insira outro nï¿½mero: ");
         int num2 = entrada.nextInt();
         
        if(num1 > num2){
-           System.out.println("O primeiro número é maior.");
+           System.out.println("O primeiro nï¿½mero ï¿½ maior.");
        }else{
-           System.out.println("O segundo número é maior.");
+           System.out.println("O segundo nï¿½mero ï¿½ maior.");
        }
 
+       entrada.close();
     }
 }

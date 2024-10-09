@@ -1,4 +1,3 @@
-
 package programas;
 import java.util.Scanner;
 
@@ -28,6 +27,8 @@ public class Array {
         
         double d = numeros[30] + valores[9];
         System.out.println(d);
+
+        entrada.close();
     }
     
 }

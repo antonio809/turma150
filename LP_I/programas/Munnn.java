@@ -8,11 +8,13 @@ public class Munnn {
         
          Scanner entrada = new Scanner(System.in);
          
-         System.out.print("Insira um número: ");
+         System.out.print("Insira um nï¿½mero: ");
          double n = entrada.nextDouble();
          
          double r = Math.sqrt(n);
          
-         System.out.println("A raiz de " + n + " é: " + r);
+         System.out.println("A raiz de " + n + " ï¿½: " + r);
+
+         entrada.close();
     }
 }

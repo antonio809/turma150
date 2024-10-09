@@ -18,5 +18,7 @@ public class QualquerCoisa {
         }else{
             System.out.println("Continua sendo chato pra caralho!");
         }
+
+        entrada.close();
     }
 }

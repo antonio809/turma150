@@ -20,6 +20,8 @@ public class Else {
         }else{
             System.out.println("Esquece! Tu e bom.");
         }
+
+        entrada.close();
     }
     
 }

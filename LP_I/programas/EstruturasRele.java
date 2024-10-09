@@ -9,21 +9,24 @@ public class EstruturasRele {
         
         Scanner entrada = new Scanner(System.in);
         
-        System.out.println("Divisão de dois números: ");
-        System.out.print("Primeiro Número: ");
+        System.out.println("Divisï¿½o de dois nï¿½meros: ");
+        System.out.print("Primeiro Nï¿½mero: ");
         double num1 = entrada.nextDouble();
         
-        System.out.print("Segundo Número: ");
+        System.out.print("Segundo Nï¿½mero: ");
         double num2 = entrada.nextDouble();
         
         
         while(num2 == 0){
-            System.out.println("Segundo Número deve ser positivo!");
+            System.out.println("Segundo Nï¿½mero deve ser positivo!");
             
-            System.out.print("Segundo Número: ");
+            System.out.print("Segundo Nï¿½mero: ");
             num2 = entrada.nextDouble();
         }
         double resultado = num1 / num2;
         System.out.println("Resultado: " + num1 + " / " + num2 + " = " + resultado);
+
+
+        entrada.close();
     }
 }
