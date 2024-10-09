@@ -6,18 +6,19 @@ public class Aula09102 {
         
         Scanner entrada = new Scanner(System.in);
 
-        int v[] = new int[6];
-        int a = 0;
+        System.out.println("Insira 5 números: ");
+        double v[] = new double[5];
+        double soma = 0;
 
         for (int i = 0; i < 5; i++){
             System.out.print("v[" + (i+1) + "] : ");
-            v[i] = entrada.nextInt();
+            v[i] = entrada.nextDouble();
 
-            a = a + v[i];
+            soma = soma + v[i];
 
         }
         
-        System.out.println("Soma dos números: " + a);
+        System.out.println("Soma dos números: " + soma);
         System.out.println("Números em ordem invertida: ");
         
         for(int i = 4; i >= 0; i--){
