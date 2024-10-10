@@ -31,8 +31,8 @@ public class Aula09103 {
             System.out.println(v[i]);
         }
         System.out.println("Na Ordem Inversa: ");
-        for(int i = 4; i > 5; i--){
-            System.out.print("v[" + (i-1) + "] : ");
+        for(int i = 4; i >=0; --i){
+            System.out.println("v[" + (i-1) + "] : " + v[i]);
             
         }
         
